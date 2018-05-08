@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fate</string>
+    <string name="coinflip">COIN FLIP</string>
+    <string name="bottleSpinner">BOTTLE SPINNER</string>
+    <string name="roulette">ROULETTE</string>
+    <string name="ball">MAGIC 8 BALL</string>
+    <string name="dice">DICE</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper1">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="363dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/Ball"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ball"
+            android:layout_weight="0.22" />
+
+        <Button
+            android:id="@+id/dice"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.22"
+            android:text="@string/dice" />
+
+        <Button
+            android:id="@+id/bottleSpn"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bottleSpinner"
+            android:layout_weight="0.22" />
+
+        <Button
+            android:id="@+id/coinFlip"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/coinflip"
+            android:layout_weight="0.22" />
+    </LinearLayout>
+
+</LinearLayout>
